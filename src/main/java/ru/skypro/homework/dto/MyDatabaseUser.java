@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Register {
+public class MyDatabaseUser {
 
     @NotBlank(message = "Это поле не может быть пустым")
     @Size(min = 4, max = 32, message = "Логин должен содержать от 4 до 32 символов")
